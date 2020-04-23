@@ -47,6 +47,7 @@ To create a new Angular library based on this seed project, use the following st
 | `ng`         | Executes an Angular CLI command. For example: `npm run ng -- serve --app=demo`.                     |
 | `start`      | Runs the demo application.                                                                          |
 | `lint`       | Runs TSLint for the library sources (found in the `lib/src` directory).                             |
+| `lint.demo`  | Runs TSLint for the library sources (found in the `demo` directory).                                |
 | `test`       | Executes a single run of the unit tests and generates a coverage report. Use this for CI jobs.      |
 | `test.watch` | Runs the unit tests in watch mode.                                                                  |
 | `build`      | Generates a distribution package of the library.                                                    |
