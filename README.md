@@ -1,4 +1,4 @@
-# Seed project for Angular 8+ libraries
+# Angular 8 empty library projects template
 
 **This repository contains a seed project for developing Angular 8 modules / libraries, which provides the following features:**
 
