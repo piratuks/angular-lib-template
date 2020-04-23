@@ -1,0 +1,17 @@
+{
+  "extends": "@piratuks/tslint-config-code-style",
+  "rules": {},
+  "linterOptions": {
+    "exclude": [
+      "**/node_modules/**",
+      "./e2e/**",
+      "./demo/polyfills.ts",
+      "./lib/test.ts",
+      "./demo/environments/**",
+      "./demo/test.ts",
+      "./demo/main.ts",
+      "./lib/**/**.spec.ts",
+      "./demo/**/**.spec.ts"
+    ]
+  }
+}

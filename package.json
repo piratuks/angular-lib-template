@@ -1,0 +1,92 @@
+{
+  "name": "@piratuks/angular-lib-template",
+  "version": "1.0.1",
+  "description": "A seed for Angular 8+ library projects",
+  "homepage": "https://github.com/piratuks/angular-lib-template",
+  "author": "Evaldas Laurekas",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "angular",
+    "angular8",
+    "ngx",
+    "library",
+    "seed",
+    "starter",
+    "skeleton",
+    "project",
+    "module"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piratuks/angular-lib-template.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged&&lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.ts": [
+      "tslint --fix --project .",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --project=demo",
+    "serve.prod": "ng serve --project=demo --prod",
+    "lint": "tslint -p lib/tsconfig.lint.json -t stylish -c tslint.json",
+    "test": "ng test --project=lib --watch=false --code-coverage",
+    "test.watch": "ng test --project=lib --watch=true --code-coverage",
+    "build": "ng build --project=lib --prod",
+    "build.demo": "ng build --project=demo --prod",
+    "publish.dist": "npm publish build/dist"
+  },
+  "sideEffects": false,
+  "peerDependencies": {
+    "@angular/common": ">=8.0.0",
+    "@angular/core": ">=8.0.0",
+    "rxjs": "^6.5.0",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.803.26",
+    "@angular-devkit/build-ng-packagr": "~0.803.26",
+    "@angular/cli": "^8.3.26",
+    "@angular/common": "^8.2.14",
+    "@angular/compiler": "^8.2.14",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/platform-browser": "^8.2.14",
+    "@angular/platform-browser-dynamic": "^8.2.14",
+    "@piratuks/tslint-config-code-style": "^1.0.11",
+    "@types/jasmine": "~3.5.0",
+    "@types/jasminewd2": "~2.0.8",
+    "ci-info": "^2.0.0",
+    "codelyzer": "~5.2.2",
+    "husky": "^4.2.3",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage-istanbul-reporter": "^2.1.1",
+    "karma-jasmine": "^2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "lint-staged": "^10.0.7",
+    "ng-packagr": "^5.7.1",
+    "prettier": "^2.0.4",
+    "pretty-quick": "^2.0.1",
+    "rxjs": "^6.5.4",
+    "tsickle": "0.37.0",
+    "tslib": "^1.10.0",
+    "tslint": "~5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "~3.5.3",
+    "typescript-tslint-plugin": "^0.5.5",
+    "vrsource-tslint-rules": "^5.1.0",
+    "zone.js": "~0.9.1"
+  }
+}
