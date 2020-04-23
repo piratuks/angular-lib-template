@@ -3,7 +3,10 @@
   "version": "1.0.4",
   "description": "A seed for Angular 8+ library projects",
   "homepage": "https://github.com/piratuks/angular-lib-template",
-  "author": "Evaldas Laurekas",
+  "author": {
+    "name": "Evaldas Laureckas",
+    "email": "evaldas.laureckas@gmail.com"
+  },
   "license": "MIT",
   "private": true,
   "keywords": [
