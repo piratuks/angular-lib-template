@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "types": [],
+    "paths": {
+      "@piratuks/angular-lib-template": ["../lib/public-api"]
+    }
+  },
+  "exclude": ["test.ts", "**/*.spec.ts"]
+}

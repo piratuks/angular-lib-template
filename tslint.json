@@ -11,7 +11,8 @@
       "./demo/test.ts",
       "./demo/main.ts",
       "./lib/**/**.spec.ts",
-      "./demo/**/**.spec.ts"
+      "./demo/**/**.spec.ts",
+      "./demo/typings.d.ts"
     ]
   }
 }
